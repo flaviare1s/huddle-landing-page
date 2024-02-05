@@ -552,6 +552,14 @@ video {
   text-align: center;
 }
 
+.font-Poppins {
+  font-family: Poppins, sans-serif;
+}
+
+.font-OpenSans {
+  font-family: Open Sans, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;

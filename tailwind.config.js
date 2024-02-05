@@ -7,6 +7,10 @@ module.exports = {
         violet: 'hsl(257, 40%, 49%)',
         softMagenta: 'hsl(300, 69%, 71%)',
       },
+      fontFamily: {
+        'OpenSans': ['Open Sans', 'sans-serif'],
+        'Poppins': ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
