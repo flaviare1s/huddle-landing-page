@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         violet: 'hsl(257, 40%, 49%)',
         softMagenta: 'hsl(300, 69%, 71%)',
+        pink: '#FF52C1',
       },
       fontFamily: {
         'OpenSans': ['Open Sans', 'sans-serif'],
