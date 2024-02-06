@@ -980,6 +980,18 @@ video {
     max-width: 696px;
   }
 
+  .md\:max-w-48 {
+    max-width: 12rem;
+  }
+
+  .md\:max-w-4 {
+    max-width: 1rem;
+  }
+
+  .md\:max-w-52 {
+    max-width: 13rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1012,6 +1024,14 @@ video {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:text-left {
