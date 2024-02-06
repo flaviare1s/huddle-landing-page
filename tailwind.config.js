@@ -24,6 +24,10 @@ module.exports = {
       fontSize: {
         '4xl': '40px',
       },
+      lineHeight: {
+        '27': '27px',
+        '60': '60px',
+      },
     },
   },
   plugins: [],
