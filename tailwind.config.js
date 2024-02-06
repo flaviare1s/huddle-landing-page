@@ -11,6 +11,10 @@ module.exports = {
         'OpenSans': ['Open Sans', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'mobile': "url('../images/bg-mobile.svg')",
+        'desktop': "url('../images/bg-desktop.svg')",
+      },
     },
   },
   plugins: [],
