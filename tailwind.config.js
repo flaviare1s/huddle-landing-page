@@ -15,6 +15,10 @@ module.exports = {
         'mobile': "url('../images/bg-mobile.svg')",
         'desktop': "url('../images/bg-desktop.svg')",
       },
+      spacing: {
+        '75': '296px',
+        '696': '696px',
+      },
     },
   },
   plugins: [],

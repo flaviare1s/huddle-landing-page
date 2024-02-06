@@ -15,33 +15,54 @@
   <script src="https://kit.fontawesome.com/c78e85199e.js" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <style>
+      html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+      }
+      body {
+        min-height: 100vh;
+      }
+  </style>
+
 </head>
-<body class="font-OpenSans">
+<body class="font-OpenSans bg-violet bg-mobile md:bg-desktop flex flex-col justify-center items-center m-auto">
 
-  <header>
-    <img src="../images/logo.svg" alt="Logo">
-  </header>
-
-  <main>
-    <img src="../images/illustration-mockups.svg" alt="Mockups Illustration">
-    <div>
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
-      </p>
-      <button>Register</button>
+  <div class="flex flex-col justify-center items-center m-auto md:flex-row">
+    <header>
+      <div class="flex flex-col items-start">
+        <img class="max-w-36 md:max-w-44 pb-10 pt-5" src="../images/logo.svg" alt="Logo">
+      </div>
+      <div class="flex flex-col items-center justify-center m-auto">
+        <img class="max-w-75 md:max-w-696" src="../images/illustration-mockups.svg" alt="Mockups Illustration">
+      </div>
+    </header>
+    <div class="md:flex flex-col">
+      <main class="flex flex-col items-center justify-center m-auto">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button>Register</button>
+      </main>
+    
+      <nav>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </nav>
     </div>
-  </main>
+  </div>
 
   <footer>
-    <i class="fa-brands fa-facebook-f"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-instagram"></i> 
-  </footer>
-
     <p class="text-xs text-center mt-2">
-      Challenge by <a class="text-softMagenta font-bold" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a class="text-softMagenta font-bold" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a class="text-softMagenta font-bold" href="https://github.com/flaviare1s/">Flávia Reis</a>.
     </p>
+  </footer>
+
 </body>
 </html>
