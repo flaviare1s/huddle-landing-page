@@ -19,6 +19,9 @@ module.exports = {
         '75': '296px',
         '696': '696px',
       },
+      fontSize: {
+        '4xl': '40px',
+      },
     },
   },
   plugins: [],
